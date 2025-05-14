@@ -1,0 +1,155 @@
+<!-- post1.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tech Blog - Stay updated with the latest in tech and programming">
+  <meta name="keywords" content="Tech, Blog, Programming, Development, AI, GitHub, Tools, Tutorials">
+  <title>Tech Blog | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+  <header>
+  <div class="logo-container">
+    <h1>Tech Blog</h1>
+    <div class="hamburger">&#9776;</div>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+
+      <li>
+        <a href="blog.html">Blog</a>
+        <ul>
+          <li><a href="post1.html">HTML, CSS & JS Guide</a></li>
+          <li><a href="post2.html">Top 5 Free Dev Tools</a></li>
+          <li><a href="post3.html">What is AI & Why It Matters</a></li>
+        </ul>
+      </li>
+
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <main>
+    <h2>Beginner’s Guide to HTML, CSS, and JavaScript</h2>
+
+    <p>If you're just getting started in web development, you've likely come across the terms HTML, CSS, and JavaScript. These are the three core technologies that every website is built upon. Together, they make websites functional, styled, and interactive. Understanding them is the first step toward becoming a proficient web developer.</p>
+
+    <p>This guide will break down each of these technologies, explaining what they do and how they work together. By the end of this post, you'll have a solid understanding of how websites are built and how to get started on your own.</p>
+
+    <h3>HTML: The Structure of Web Pages</h3>
+    <p>HTML (HyperText Markup Language) is the foundation of every webpage. It provides the structure and layout for the content that appears in your browser. With HTML, you define things like headings, paragraphs, lists, links, images, and more.</p>
+
+    <p>Think of HTML as the bones of a webpage. Without it, there would be nothing to display in the browser. HTML uses "tags" to label different types of content. For example, the <code>&lt;p&gt;</code> tag defines a paragraph, while <code>&lt;img&gt;</code> displays an image.</p>
+
+    <p>Learning to write HTML is quite straightforward, and it's usually the first language web developers learn. The most important thing to keep in mind is that HTML must be structured correctly to ensure your website is readable by both humans and machines.</p>
+
+    <p><img src="html.png" alt="HTML" width="500"></p>
+
+    <p>Here’s a basic HTML snippet to get you started:</p>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;&lt;title&gt;My Web Page&lt;/title&gt;&lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Welcome to My Web Page&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+
+    <h3>CSS: Styling Your Web Page</h3>
+    <p>Once you have your structure in place with HTML, the next step is to style it using CSS (Cascading Style Sheets). CSS allows you to change the appearance of your HTML elements—fonts, colors, sizes, spacing, and more.</p>
+
+    <p>CSS brings your content to life by making it visually appealing and user-friendly. Without CSS, websites would look plain and hard to read. By separating content (HTML) from style (CSS), you can maintain your site more easily and create a consistent look across all pages.</p>
+
+    <p>CSS can be added directly inside an HTML document using the <code>&lt;style&gt;</code> tag or linked externally via a .css file. Most developers prefer external stylesheets for larger projects.</p>
+
+    <p><img src="css.jpeg" alt="CSS" width="500"></p>
+
+    <p>Here’s an example of simple CSS:</p>
+    <pre>
+body {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: gray;
+}
+    </pre>
+
+    <p>In modern web development, CSS also allows for responsive design, meaning your website will look great on all devices—from phones to desktop monitors. Frameworks like Bootstrap are also built on CSS and make styling even faster.</p>
+
+    <h3>JavaScript: Adding Interactivity</h3>
+    <p>Now that your content is structured and styled, it's time to make it interactive. JavaScript is the language of the web that enables dynamic behavior on websites. It allows users to interact with your site in real-time without needing to reload the page.</p>
+
+    <p>With JavaScript, you can validate forms, display alerts, create animations, fetch data from servers, and much more. It's an essential tool for building engaging, user-friendly applications.</p>
+
+    <p>JavaScript runs directly in the browser, and every modern browser supports it. It's often used alongside HTML and CSS to create Single Page Applications (SPAs), like those built with React or Vue.js.</p>
+
+    <p><img src="javascript.png" alt="JavaScript" width="500"></p>
+
+    <p>Here's an example of simple JavaScript code:</p>
+    <pre>
+&lt;button onclick="alert('Hello, world!')"&gt;Click Me&lt;/button&gt;
+    </pre>
+
+    <p>This code creates a button that, when clicked, pops up a message. It's simple, but it's the first step into the world of interactive web development.</p>
+
+    <h3>Putting It All Together</h3>
+    <p>HTML, CSS, and JavaScript each play an important role in building websites. HTML gives structure, CSS adds style, and JavaScript brings interactivity. Together, they allow developers to create modern, responsive, and engaging user experiences.</p>
+
+    <p>Here’s a simple example that combines all three:</p>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;style&gt;
+      body { font-family: Arial; background-color: #f9f9f9; }
+      h1 { color: teal; }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;My First Web Page&lt;/h1&gt;
+    &lt;p&gt;Welcome to the world of web development!&lt;/p&gt;
+    &lt;button onclick="alert('Welcome to web development!')"&gt;Click Me&lt;/button&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+
+    <h3>Conclusion</h3>
+    <p>If you're serious about becoming a web developer, learning HTML, CSS, and JavaScript is non-negotiable. These three languages are the foundation of everything you will build. The good news is, they're beginner-friendly and well-documented, so anyone can start learning today.</p>
+
+    <p>Start small—create a basic page, style it, and add simple interactions. Over time, your skills will grow and you'll be able to build full-featured websites and web apps. Stick with it, and the possibilities are endless.</p>
+  </main>
+
+<footer>
+    <div class="footer-content">
+      <div class="footer-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <a href="https://wa.me/254799907658" target="_blank">Whatsapp</a>
+        <a href="https://www.facebook.com/share/198dGwTGrJ/" target="_blank">Facebook</a>
+        <a href="https://github.com/luchiri" target="_blank">Github</a>
+      </div>
+    </div>
+    <p>&copy; 2025 Tech Blog | All Rights Reserved</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
