@@ -1,25 +1,32 @@
-# Final Project and Deployment
+# Tech Blog
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+Welcome to **Tech Blog** — a beginner-friendly tech blog created as part of the PLP Web Technologies Final Project.
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+## Description
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+This blog features beginner-focused content on web development and programming tools. It includes:
+- A homepage introducing the blog
+- An About page describing the blog's purpose
+- A Blog section with dropdown access to 3 posts:
+  - Top 5 Free Tools for Beginner Developers
+  - What is AI and Why It Matters
+  - Why Developers Should Learn Git & GitHub
+- A Contact page with placeholder content
 
-## Tasks
+## Live Site
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
+[Click here to view the live site](https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Luchiri/)
 
-Good luck and happy coding! 🚀💻
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Basic JavaScript (for dropdown and hamburger menu)
+- Git & GitHub for version control and deployment
+
+## How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/PLP-WebTechnologies/feb-2025-final-project-and-deployment-Luchiri.git
